@@ -1,0 +1,122 @@
+.header-1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+h1{
+  font-family: "arial";
+  font-size: 20px;
+}
+.section1{
+background-color: #e8f8f8;
+height: 500px;
+position: relative;
+}
+.section2{
+background-color: white;
+height: 400px;
+}
+@media screen and (max-width: 480px)
+{
+  .section2{
+    background-color: white;
+    height: 400px;
+  }
+}
+
+.section3{
+background-color: white;
+height: 400px;
+}
+#imgg {
+  height: 500px;
+  width: 1423px;
+  object-fit: cover;
+}
+@media screen and (max-width: 480px)
+{
+  #imgg {
+    height: 500px;
+    width: 360px;
+    object-fit: cover;
+  }
+}
+.imga{
+  position: relative;
+}
+.imga h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -110%);
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+}
+.imga p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+#good{
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+@media screen and (max-width: 480px)
+{
+  #good{
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+p{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+@media screen and (max-width: 480px)
+{
+  #svg{
+    height: 70px;
+    width: 70px;
+  }
+}
+h2{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -140%);
+  padding: 20px;
+  color: white;
+  font-size: 80px;
+}
+@media screen and (max-width: 480px)
+{
+  h2{
+    font-size: 40px;
+    transform: translate(-50%, -220%);
+  }
+}
+.setumei{
+  
+}
