@@ -51,14 +51,14 @@ height: 400px;
 }
 #imgg {
   height: 700px;
-  width: 1423px;
+  width: 100%;
   object-fit: cover;
 }
 @media screen and (max-width: 480px)
 {
   #imgg {
     height: 500px;
-    width: 360px;
+    width: 100%;
     object-fit: cover;
   }
 }
@@ -84,14 +84,14 @@ height: 400px;
     font-size: 20px;
 }
 #good{
-  width: 500px;
+  width: 100%;
   height: 400px;
   object-fit: cover;
 }
 @media screen and (max-width: 480px)
 {
   #good{
-    width: 360px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
   }
